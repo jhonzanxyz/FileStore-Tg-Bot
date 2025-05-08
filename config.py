@@ -1,7 +1,7 @@
 import os
 
-BOT_TOKEN = os.getenv('BOT_TOKEN')
-OWNER_ID = int(os.getenv('OWNER_ID'))
-STORAGE_CHANNEL_ID = os.getenv('STORAGE_CHANNEL_ID')
-FORCE_SUB_CHANNEL = os.getenv('FORCE_SUB_CHANNEL')
-BOT_USERNAME = os.getenv('BOT_USERNAME')
+BOT_TOKEN = os.getenv('7547998088:AAFHSqboiKQlRsISaACAbjDI_YZOGg3OQAg')
+OWNER_ID = int(os.getenv('6444269766'))
+STORAGE_CHANNEL_ID = os.getenv('2601148126')
+FORCE_SUB_CHANNEL = os.getenv('@magtorn')
+BOT_USERNAME = os.getenv('@Your_File_Store_Bot')
