@@ -49,7 +49,7 @@ def send_message(chat_id, text):
 def send_force_sub_msg(chat_id):
     btn = {
         "inline_keyboard": [
-            [{"text": "📢 Join Channel", "url": f"https://t.me/{FORCE_SUB_CHANNEL.strip('@')}"}],
+            [{"text": "📢 Join Channel", "url": f"https://t.me/{FORCE_SUB_CHANNEL.strip('@magtorn')}"}],
             [{"text": "✅ I Joined", "callback_data": "checksub"}]
         ]
     }
