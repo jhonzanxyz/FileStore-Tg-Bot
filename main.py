@@ -46,13 +46,7 @@ def is_owner(user_id):
 def send_message(chat_id, text):
     requests.post(f"{API_URL}/sendMessage", data={"chat_id": chat_id, "text": text})
 
-def send_force_sub_msg(chat_id):
-    btn = {
-        "inline_keyboard": [
-            [{"text": "📢 Join Channel", "url": f"https://t.me/{FORCE_SUB_CHANNEL.strip('@magtorn')}"}],
-            [{"text": "✅ I Joined", "callback_data": "checksub"}]
-        ]
-    }
+
     requests.post(f"{API_URL}/sendMessage", data={
         "chat_id": chat_id,
         "text": "🔐 Pehle channel join karo tabhi access milega!",
